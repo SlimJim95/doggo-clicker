@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="en-GB" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Doggo Clicker v2.0</title>
+
+
+    </head>
+    <body>
+        <h1>Pets: <span id="score"></span></h1>
+
+        <div>Pat Power: <span id="patPower"></span></div>
+        
+        <div id="doggo" onclick="doggoPat()">pls pet</div>
+
+        <div id="upgrades-container">
+          <div id="moreHandsUpgrade" class="hidden">
+              <button onclick="buyHands()">moar hands - patPower up by 25%</button>
+              <p>Owned: <span id="ownedHands"></span></p>
+              <p>Cost: <span id="costHands"></span></p>
+
+          </div>
+          <div id="frenUpgrade" class="hidden">
+              <button onclick="buyFren()">buy fren - auto petter 1/s!</button>
+              <p>Owned: <span id="ownedFren"></span></p>
+              <p>Cost: <span id="costFren"></span></p>
+
+          </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

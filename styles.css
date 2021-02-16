@@ -1,0 +1,51 @@
+body {
+    align-items: center;
+    background:rgb(204, 189, 189)
+}
+
+div {
+    height: 50px;
+    width: 100px;
+}
+
+#doggo {
+    background: lightgrey;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
+    border: 2px solid black;
+}
+
+#doggo:hover {
+    cursor: pointer;
+}
+#doggo:active {
+    width: 95px;
+}
+
+#upgrades-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#moreHandsUpgrade {
+    background: rgb(85, 248, 85);
+    height: fit-content;
+}
+
+#frenUpgrade {
+    background: rgb(85, 210, 248);
+    height: fit-content;
+}
+
+button:hover {
+    cursor:pointer;
+}
